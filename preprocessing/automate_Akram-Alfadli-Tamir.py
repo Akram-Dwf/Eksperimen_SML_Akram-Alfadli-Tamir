@@ -177,9 +177,8 @@ def preprocess_data(file_path: str) -> None:
 
 
 if __name__ == "__main__":
-    # Path default ke dataset di direktori yang sama dengan skrip ini
-    dataset_path = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        "WA_Fn-UseC_-HR-Employee-Attrition.csv",
-    )
+    # Path ke dataset (mundur satu direktori ke root tempat raw data berada)
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dataset_path = os.path.join(base_dir, "WA_Fn-UseC_-HR-Employee-Attrition.csv")
+    
     preprocess_data(dataset_path)

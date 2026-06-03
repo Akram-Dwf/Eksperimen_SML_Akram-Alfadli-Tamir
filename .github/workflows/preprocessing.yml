@@ -29,7 +29,7 @@ jobs:
 
       # 4. Jalankan skrip preprocessing
       - name: Run Preprocessing Script
-        run: python automate_Akram-Alfadli-Tamir.py
+        run: python preprocessing/automate_Akram-Alfadli-Tamir.py
 
       # 5. Upload hasil preprocessing sebagai artifact
       - name: Upload Preprocessed Data
@@ -37,6 +37,6 @@ jobs:
         with:
           name: preprocessed-dataset
           path: |
-            train_data.csv
-            test_data.csv
+            preprocessing/train_data.csv
+            preprocessing/test_data.csv
           retention-days: 30
