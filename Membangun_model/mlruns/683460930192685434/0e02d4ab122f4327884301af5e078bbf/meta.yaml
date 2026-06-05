@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/akram/SMSML_Akram%20Alfadli%20Tamir/mlruns/683460930192685434/0e02d4ab122f4327884301af5e078bbf/artifacts
+end_time: 1780697942449
+entry_point_name: ''
+experiment_id: '683460930192685434'
+lifecycle_stage: active
+run_id: 0e02d4ab122f4327884301af5e078bbf
+run_name: RandomForest_Autolog
+run_uuid: 0e02d4ab122f4327884301af5e078bbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780697928229
+status: 3
+tags: []
+user_id: akram
